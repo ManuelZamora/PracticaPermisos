@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Azul">#3F51B5</color>
+    <color name="Azul_Bajo">#C5CAE9</color>
+    <color name="BlaquiAzul">#E8EAF6</color>
+    <color name="Verde_thumb">#43a047</color>
+    <color name="Verde_track">#00701a</color>
+    <color name="Rojo_thumb">#e53935</color>
+    <color name="Rojo_track">#ab000d</color>
+</resources>
