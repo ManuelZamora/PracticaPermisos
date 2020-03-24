@@ -43,17 +43,19 @@
         android:textSize="15sp"
         android:thumbTint="@color/Rojo_thumb"
         android:trackTint="@color/Verde_track"/>
+
     <Switch
-    android:id="@+id/S3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:checked="false"
-    android:text="Telefono"
-    android:textSize="15sp"
+        android:id="@+id/S3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:checked="false"
+        android:text="Contactos"
+        android:textSize="15sp"
         android:thumbTint="@color/Rojo_thumb"
         android:trackTint="@color/Verde_track" />
+
     <Switch
         android:id="@+id/S4"
         android:layout_width="match_parent"
@@ -65,6 +67,7 @@
         android:textSize="15sp"
         android:thumbTint="@color/Rojo_thumb"
         android:trackTint="@color/Verde_track"/>
+
     <Switch
         android:id="@+id/S5"
         android:layout_width="match_parent"
@@ -72,8 +75,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:checked="false"
-        android:text="Galeria"
+        android:text="Llamadas"
         android:textSize="15sp"
         android:thumbTint="@color/Rojo_thumb"
-        android:trackTint="@color/Verde_track"/>
+        android:trackTint="@color/Verde_track" />
 </LinearLayout>
