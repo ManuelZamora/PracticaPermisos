@@ -15,8 +15,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
 
-    private int sw = 0;
     Switch sw1,sw2,sw3,sw4,sw5;
+    int sw = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,22 +71,25 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         }
     }
     private void tog(int requestCode){
-        switch (requestCode) {
-            case 1:
-                sw1.toggle();
-                break;
-            case 2:
-                sw2.toggle();
-                break;
-            case 3:
-                sw3.toggle();
-                break;
-            case 4:
-                sw4.toggle();
-                break;
-            case 5:
-                sw5.toggle();
-                break;
+        if (requestCode != R.id.S1)
+        {
+            sw1.toggle();
+        }
+        else if(requestCode != R.id.S2)
+        {
+            sw2.toggle();
+        }
+        else if (requestCode != R.id.S3)
+        {
+            sw3.toggle();
+        }
+        else if (requestCode != R.id.S4)
+        {
+            sw4.toggle();
+        }
+        else if (requestCode != R.id.S5)
+        {
+            sw5.toggle();
         }
     };
     private void permissions(String permission, int sw) {
